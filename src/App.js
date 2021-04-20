@@ -1,24 +1,20 @@
-import React from "react";
-import SuperButton from "./SuperButton";
+import React from 'react';
+import SuperButton from './SuperButton';
 
 export default function App() {
   return (
-    <div className="App">
+    <div className='App'>
       <h1>
-        Hello Tests! With{" "}
-        <a
-          target="_blank"
-          rel="noopener noreferrer"
-          href="https://jestjs.io/en/"
-        >
+        Hello Tests! With{' '}
+        <a target='_blank' rel='noopener noreferrer' href='https://jestjs.io/en/'>
           Jest
         </a>
       </h1>
       Your tasks are:
       <ol>
         <li>
-          [Vanilla JS] To create tests for each function of{" "}
-          <strong>utils.js</strong> in <strong>utils.spec.js</strong>. <br />
+          [Vanilla JS] To create tests for each function of <strong>utils.js</strong> in{' '}
+          <strong>utils.spec.js</strong>. <br />
           For each:
           <ul>
             <li> A description of the function </li>
@@ -27,11 +23,11 @@ export default function App() {
           </ul>
         </li>
         <li>
-          [Vanilla JS] With a TTD approach:
+          [Vanilla JS] With a TDD approach:
           <ul>
             <li>
-              Create the tests (in <strong>phone.spec.js</strong>) to check if a
-              number is a German phone number, for example:
+              Create the tests (in <strong>phone.spec.js</strong>) to check if a number is a German
+              phone number, for example:
               <ul>
                 <li>The format can be +491 000 000000</li>
                 <li>The format can be +491000000000</li>
@@ -40,21 +36,21 @@ export default function App() {
               </ul>
             </li>
             <li>
-              Then, and only then, create the function to check if a phone
-              number is German (in <strong>phone.js</strong>).{" "}
+              Then, and only then, create the function to check if a phone number is German (in{' '}
+              <strong>phone.js</strong>).{' '}
             </li>
             <li>Would your function be the same without the tests before?</li>
           </ul>
         </li>
         <li>
-          [React] By using{" "}
+          [React] By using{' '}
           <a
-            target="_blank"
-            rel="noopener noreferrer"
-            href="https://jestjs.io/docs/en/tutorial-react#enzyme"
+            target='_blank'
+            rel='noopener noreferrer'
+            href='https://jestjs.io/docs/en/tutorial-react#enzyme'
           >
             Enzyme
-          </a>{" "}
+          </a>{' '}
           with this button: <SuperButton />
           <ul>
             <li>
@@ -62,13 +58,13 @@ export default function App() {
             </li>
             <li> Simulate a click </li>
             <li>
-              Test if the text is <i>"I'm not a super awesome button?"</i>{" "}
+              Test if the text is <i>"I'm not a super awesome button?"</i>{' '}
             </li>
             <li>(check if the color is red)</li>
           </ul>
         </li>
       </ol>
-      <img src="Screenshot.png" alt="screenshot" style={{ width: "100vw" }} />
+      <img src='Screenshot.png' alt='screenshot' style={{ width: '100vw' }} />
     </div>
   );
 }
